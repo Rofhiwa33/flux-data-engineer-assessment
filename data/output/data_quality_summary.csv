@@ -1,0 +1,12 @@
+issue,count,resolution
+Total raw rows ingested,250,—
+Rows in clean dataset,224,Kept
+Rows quarantined (total),26,Quarantined
+check_out on or before check_in,11,Quarantined
+Stay length > 90 nights (implausible outlier),8,Quarantined
+Duplicate booking_id – second occurrence removed,2,Quarantined
+Revenue is zero or negative,1,Quarantined
+Revenue is missing,1,Quarantined
+num_guests > 30 (implausible),1,Quarantined
+property_id not found in properties table,1,Quarantined
+Currency unknown or unmappable,1,Quarantined

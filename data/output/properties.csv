@@ -1,0 +1,11 @@
+property_id,property_name,country,region,room_count
+P001,Sabi Sands Bush Lodge,South Africa,Mpumalanga,18
+P002,Table Bay Retreat,South Africa,Western Cape,42
+P003,Serengeti Plains Camp,Tanzania,Serengeti,12
+P004,Okavango Delta Camp,Botswana,North-West,9
+P005,Zanzibar Beach Villas,Tanzania,Zanzibar,24
+P006,Victoria Falls Lodge,Zimbabwe,Matabeleland,30
+P007,Namib Desert Camp,Namibia,Erongo,10
+P008,Kruger Gateway Hotel,South Africa,Mpumalanga,60
+P009,Cape Winelands Manor,South Africa,Western Cape,15
+P010,Maasai Mara Tented Camp,Kenya,Rift Valley,14

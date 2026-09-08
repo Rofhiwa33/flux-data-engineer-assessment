@@ -1,0 +1,27 @@
+booking_id,property_id,check_in,check_out,num_guests,room_rate,currency,revenue,booking_channel,created_at,rejection_reason
+B1020,P004,2025-09-04,2025-04-13,5.0,5500,EUR,22000.0,OTA,2025-03-26 00:00:00,check_out on or before check_in
+B1025,P004,2025-10-24,2025-03-11,1.0,7800,USD,78000.0,Travel Agent,2025-09-09 00:00:00,check_out on or before check_in
+B1034,P003,2025-01-04,2025-08-04,1.0,3200,GBP,22400.0,OTA,2025-03-14 00:00:00,Stay length > 90 nights (implausible outlier)
+B1050,P007,2025-03-08,2025-12-08,6.0,9200,EUR,82800.0,OTA,2025-06-10 00:00:00,Stay length > 90 nights (implausible outlier)
+B1062,P008,2025-12-10,2025-10-16,6.0,5500,ZAR,22000.0,Direct,2025-09-06 00:00:00,check_out on or before check_in
+B1075,P010,2025-11-01,2025-01-16,5.0,2500,EUR,12500.0,Website,2024-11-12 00:00:00,check_out on or before check_in
+B1101,P009,2025-03-08,2025-08-13,6.0,9200,EUR,92000.0,Direct,2025-06-24 00:00:00,Stay length > 90 nights (implausible outlier)
+B1103,P006,2025-01-02,2025-08-02,3.0,3200,USD,22400.0,Direct,2024-12-16 00:00:00,Stay length > 90 nights (implausible outlier)
+B1108,P009,2025-04-06,2025-12-06,6.0,2500,USD,20000.0,Website,2025-04-04 00:00:00,Stay length > 90 nights (implausible outlier)
+B1153,P002,2025-10-02,2025-02-16,6.0,4100,GBP,24600.0,Website,2024-12-10 00:00:00,check_out on or before check_in
+B1162,P010,2025-07-02,2025-10-02,3.0,9200,USD,27600.0,Website,2024-11-24 00:00:00,Stay length > 90 nights (implausible outlier)
+B1172,P004,2025-10-26,2025-01-11,1.0,2500,GBP,15000.0,Website,2025-10-08 00:00:00,check_out on or before check_in
+B1184,P005,2025-04-03,2025-03-14,6.0,7800,ZAR,78000.0,Travel Agent,2025-02-17 00:00:00,check_out on or before check_in
+B1187,P002,2025-12-03,2025-03-13,5.0,3200,ZAR,3200.0,Website,2025-01-30 00:00:00,check_out on or before check_in
+B1201,P003,2025-11-03,2025-03-18,3.0,5500,ZAR,38500.0,Website,2024-12-27 00:00:00,check_out on or before check_in
+B1209,P008,2025-04-05,2025-08-05,3.0,12000,EUR,48000.0,Direct,2025-04-12 00:00:00,Stay length > 90 nights (implausible outlier)
+B1210,P007,2025-05-05,2025-10-05,2.0,4100,USD,20500.0,Travel Agent,2025-03-13 00:00:00,Stay length > 90 nights (implausible outlier)
+B1011,P001,2025-02-28,2025-03-09,3.0,12000,GBP,108000.0,Travel Agent,2025-01-21 00:00:00,Duplicate booking_id – second occurrence removed
+B1021,P008,2025-10-09,2025-10-11,1.0,9200,USD,23400.0,OTA,2025-09-07 00:00:00,Duplicate booking_id – second occurrence removed
+B9001,P002,2025-06-10,2025-06-03,2.0,5500,USD,38500.0,Direct,2025-05-01 09:00:00,check_out on or before check_in
+B9002,P003,2025-07-01,2025-07-04,2.0,4100,EUR,-12300.0,OTA,2025-06-01 10:00:00,Revenue is zero or negative
+B9003,P004,2025-08-15,2025-08-15,2.0,9200,USD,0.0,Website,2025-07-20 12:00:00,check_out on or before check_in
+B9004,P005,2025-09-01,2025-09-05,,7800,ZAR,,Travel Agent,2025-08-01 08:00:00,Revenue is missing
+B9005,P001,2025-10-01,2025-10-03,99.0,3200,USD,6400.0,Direct,2025-09-01 07:30:00,num_guests > 30 (implausible)
+B9006,P099,2025-11-01,2025-11-04,2.0,4100,GBP,12300.0,OTA,2025-10-01 11:00:00,property_id not found in properties table
+B9007,P006,2025-11-10,2025-11-12,2.0,5500,,11000.0,Website,2025-10-15 14:00:00,Currency unknown or unmappable
