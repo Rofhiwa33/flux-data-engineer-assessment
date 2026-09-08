@@ -102,7 +102,7 @@ Tools and resources used and where they helped:
 - **Claude (Anthropic) — [claude.ai](https://claude.ai)**
   Used to help structure the pipeline stages, review the validate logic, suggest the currency and channel normalisation maps and review the SQL queries for correctness. All code was read, understood and verified by running it locally before submission. I can explain every line.
 
-  - **Napkin AI — [napkin.ai](https://napkin.ai)**
+- **Napkin AI — [napkin.ai](https://napkin.ai)**
   Used to generate the project structure visual diagram included in this README.
 
 ### Documentation & Reference Sites
